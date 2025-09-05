@@ -21,8 +21,9 @@
     "clean": "node run-command.mjs clean format",
     "proxy-validator": "node proxyServiceValidator.js",
     "workflow-test": "node run-command.mjs workflow",
+    "deployment": "npm install && npm run build && node backend.js",
     "heroku-prebuild": "npm install --legacy-peer-deps --force"
-    "deployment": "npm install && npm run build && node backend.js"
+
   },
   "keywords": [
     "proxy",
