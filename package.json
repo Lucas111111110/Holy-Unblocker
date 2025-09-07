@@ -22,7 +22,7 @@
     "proxy-validator": "node proxyServiceValidator.js",
     "workflow-test": "node run-command.mjs workflow",
     "deployment": "npm install && npm run build && node backend.js",
-    "heroku-prebuild": "npm install --legacy-peer-deps --force",
+    "heroku-prebuild": "npm install --legacy-peer-deps --force"
   },
   "keywords": [
     "proxy",
